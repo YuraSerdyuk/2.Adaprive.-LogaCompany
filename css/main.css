@@ -49,6 +49,7 @@ header {
 	background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url(../img/proba320.png);
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
     height: 460px;
 }
 

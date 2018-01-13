@@ -1,0 +1,983 @@
+@media only screen and (max-width: 320px){
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 87.5%;
+	margin: 0 auto;
+}
+
+
+.title {
+	font-family: Century Gothic;
+	font-weight: 400; 
+	color: #000000;
+	font-size: 30px;
+	text-decoration: none;
+	float: left;
+}
+
+.color_letter {
+	color: #ffb826;
+}
+
+.gamburger {
+	float: right;
+	padding-top: 20px;
+}
+
+.header {
+	height: 55px;
+}
+
+
+
+
+
+
+/* SECTION 2 WELCOME */
+
+
+
+
+
+
+#welcome {
+	background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url(../img/proba320.png);
+	background-position: center;
+	background-size: cover;
+    height: 460px;
+}
+
+h1 {
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffffff;
+	padding-top: 167px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.color_letter2 {
+	color: #ffb826;
+}
+
+h2 {
+	font-family: Catamaran;
+	font-size: 12.5px;
+	font-weight: 700;
+	color: #666666;
+	padding-top: 1px;
+	text-align: center;
+}
+
+.menu_button {
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 500;
+	color: #ffb826;
+	border-radius: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px solid #ffb826;
+	height: 51px;
+	width: 162px;
+
+}
+
+.pos_button {
+	width: 100%;
+	margin-top: 25px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;   
+}
+
+
+
+
+/* SECTION 3 ANIMATION */
+
+
+
+
+
+
+#animation {
+	width: 87.6%;
+	margin: 0 auto;
+	height: 720px;
+}
+
+
+.photo_animation_section {
+	padding-top: 30px;
+	margin: 0 auto;
+	display: block;
+}
+
+.text1_animation {
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	color: #444;
+	margin-top: 12px;
+	line-height: 0.6;
+	text-align: center;
+}
+
+.text2_animation {
+	font-family: Century Gothic;
+	font-size: 24px;
+	font-weight: 400;
+	color: #9f9e9e;
+	line-height: 0.7;
+	margin-top: 14px;
+	text-align: center;
+}
+
+
+
+
+
+/* SECTION 3 ANIMATION */
+
+
+
+
+
+#about {
+	height: 810px;
+	background-color: #f2f2f2;
+}
+
+.up_photo {
+	background-image: url(../img/background.png);
+	height: 311px;
+}
+
+.down_text {
+	width: 87.5%;
+	margin: auto;
+}
+
+
+.title_text h2 {
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+	line-height: 1.05;
+	padding-top: 33px;
+}
+
+.title_text h2 span {
+	color: #ffb926;
+}
+
+.title_text h4 {
+	font-family: Century Gothic;
+	font-size: 18.75px;
+	font-weight: 400;
+	color: #ffb826;
+	text-align: center;
+	line-height: 0.8;
+	margin-top: 10px;
+}
+
+.about_text p {
+	font-family: Century Gothic;
+	font-size: 16.67px;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+.about_button {
+	font-family: Catamaran;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ffb826;
+	background-color: #ffb826;
+	padding: 13px 55px 13px 55px;
+	outline: none;
+}
+
+
+
+
+
+
+
+/* SECTION 4 SERVICES */
+
+
+
+
+
+
+
+#our_services {
+	height:1790px; 
+}
+
+.line {
+	padding-top: 20px;
+	margin: auto;
+	display: block;
+}
+
+
+.services {
+	width: 87.5%;
+	margin: auto;
+	padding-top: 30px;
+	
+}
+
+.container {
+	background-color: #f2f2f2;
+	height: 239px;
+	border: 1px solid #f2f2f2;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.icon_service1 {
+	width: 86px;
+	height: 69px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon_service2 {
+	width: 76px;
+	height: 69px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon_service3 {
+	width: 78px;
+	height: 65px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon_service4 {
+	width: 88px;
+	height: 69px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon_service5 {
+	width: 70px;
+	height: 85px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon_service6 {
+	width: 57px;
+	height: 80px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.icon1 {
+	width: 86px;
+	height: 69px;
+}
+
+.icon2 {
+	width: 76px;
+	height: 69px;
+}
+
+.icon3 {
+	width: 78px;
+	height: 65px;
+}
+
+.icon4 {
+	width: 88px;
+	height: 69px;
+}
+
+.icon5 {
+	width: 70px;
+	height: 85px;
+}
+
+.icon6 {
+	width: 57px;
+	height: 80px;
+}
+
+.text_service h2 {
+	font-family: Catamaran;
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+	line-height: 0.8;
+	padding-top: 13px;
+	text-align: center;
+}
+
+.text_service p {
+	font-family: Century Gothic;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 1.5;
+}
+
+.button_service {
+	width: 118px;
+	height: 29px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.button_service button {
+	font-family: Catamaran;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 0.8;
+	background-color: #ffb926;
+	border-radius: 22px;
+	border-style: solid;
+	border-color: #ffb926;
+	padding: 8px 25px 8px 25px;
+}
+
+
+
+
+
+
+
+/* SECTION 5 CLIENTS */
+
+
+
+
+
+
+
+#our_clients {
+	background-color: #f2f2f2;
+	height: 289px;
+}
+
+.total_section {
+	width: 86.5%;
+	margin: auto;
+}
+
+.total_section p {
+	font-family: Century Gothic;
+	font-size: 13px;
+	color: #343434;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.sl {
+	padding-top: 50px;
+}
+
+.slick-slide img {
+	display: block;
+	margin: auto;
+}
+
+
+
+
+
+
+/* SECTION 6 PRISE */
+
+
+
+#price {
+	height: 570px;
+}
+
+.title_text_slider {
+	font-family: Century Gothic;
+	font-size: 13px;
+	color: #343434;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.container_price {
+	width: 169px;
+	height: 326px;
+	margin: auto;
+}
+
+.name_price {
+	height: 52px;
+	background-color: #ffb926;
+}
+
+.name_price_text {
+	font-family: Catamaran;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.value_price {
+	height: 59px;
+	background-color: white;
+}
+
+.value_price p {
+	font-family: Catamaran;
+	font-weight: 400;
+	font-size: 20px;
+	color: #343434;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.characteristic_price {
+	height: 163px;
+	background-color: #f2f2f2;
+}
+
+.characteristic_price p {
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 13px;
+	color: #343434;
+	text-align: center;
+	padding-top: 27px;
+}
+
+.getnow_price {
+	height: 56px;
+	background-color: #ffb926;
+}
+
+.getnow_price p {
+	font-family: Catamaran;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.sl2 {
+	padding-top: 40px;
+}
+
+.container_price {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+/* SECTION 7 RESPONSE */
+
+
+
+
+
+
+
+#response {
+	background-color: #f2f2f2;
+	height: 750px;
+}
+
+.response_position {
+	width: 86.5%;
+	margin: auto;
+}
+
+#response h4 {
+	font-family: Century Gothic;
+	font-size: 13px;
+	color: #343434;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.response_photo img {
+	display: block;
+	margin: auto;
+	padding-top: 35px;
+}
+
+#response img {
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.rsp_text {
+	font-family: Century Gothic;
+	font-size: 17px;
+	font-weight: 400;
+	color: #343434;
+	padding-top: 30px;
+	line-height: 28px;
+	padding-left: 10px;
+}
+
+.rsp_name {
+	font-family: Century Gothic;
+	font-size: 21px;
+	font-style: italic;
+	color: #343434;
+	padding-top: 12px;
+	float: right;
+}
+
+.quotes {
+	font-family: Gnuolane;
+	font-size: 200px;
+	color: #343434;
+	padding-top: 35px;
+	width: 70px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+/* SECTION 8 TEAM */
+
+
+
+
+
+#team {
+	background-image: url(../img/bg_team.png);
+	height: 560px;
+}
+
+.line_team {
+	display: block;
+	margin: auto;
+	padding-top: 25px;
+}
+
+
+.title_text_team h2 {
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	line-height: 1.05;
+	padding-top: 33px;
+}
+
+.title_text_team h2 span {
+	color: #ffb926;
+}
+
+
+.img_employee {
+	width: 227px;
+	height: 321px;
+}
+
+.slide21 {
+	width: 227px;
+	height: 321px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.overflow:after {
+	content: "";
+	width: 227px;
+	height: 200px;
+	background-color: #ffb926;
+	display: block;
+	position: relative;
+	margin-top: -109px;
+}
+
+.name_employee {
+	font-family: Century Gothic;
+	font-size: 28px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	bottom: 60px;
+}
+
+.overflow {
+	width: 227px;
+	height: 321px;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.sl3 {
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* SECTION 8 TEAM */
+
+
+
+
+
+
+
+
+#find_us {
+	background-color: #f2f2f2;
+	height: 920px;
+}
+
+.pos_find_us {
+	width: 86.5%;
+	margin: auto;
+
+}
+
+.title_small_text {
+	font-family: Century Gothic;
+	font-size: 13px;
+	color: #343434;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.photo_find_us {
+	width: 31%;
+	float: left;
+}
+
+.photo_find_us img {
+	padding-top: 40px;
+	margin: auto;
+	display: block;
+}
+
+.text_find_us {
+	width: 69%;
+	float: right;
+}
+
+.text_for_phone {
+	height: 71px;
+	padding-top: 40px;
+}
+
+.text_for_phone h2 {
+	font-family: Catamaran;
+	font-weight: 700;
+	font-size: 19px;
+	color: #343434;
+	text-align: left;
+}
+
+.text_for_phone p {
+	font-family: Catamaran;
+	font-weight: 500;
+	font-size: 12px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+.text_for_email {
+	height: 55px;
+	padding-top: 40px;
+}
+
+.text_for_email h2 {
+	font-family: Catamaran;
+	font-weight: 700;
+	font-size: 19px;
+	color: #343434;
+	text-align: left;
+}
+
+.text_for_email p {
+	font-family: Catamaran;
+	font-weight: 500;
+	font-size: 12px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+.text_for_point {
+	height: 67px;
+	padding-top: 40px;
+}
+
+.text_for_point h2 {
+	font-family: Catamaran;
+	font-weight: 700;
+	font-size: 19px;
+	color: #343434;
+	text-align: left;
+}
+
+.text_for_point p {
+	font-family: Catamaran;
+	font-weight: 500;
+	font-size: 12px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+.text_for_time {
+	height: 62px;
+	padding-top: 40px;
+}
+
+.text_for_time h2 {
+	font-family: Catamaran;
+	font-weight: 700;
+	font-size: 19px;
+	color: #343434;
+	text-align: left;
+}
+
+.text_for_time p {
+	font-family: Catamaran;
+	font-weight: 500;
+	font-size: 12px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+.form1 {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 5px;
+	outline: none;
+	resize: none;
+	box-shadow: inset 2.5px 2.5px 10px rgba(0,0,0,0.2);
+	border-style: none;
+	margin-top: 35px;
+	width: 277px;
+	height: 46px;
+	text-transform: capitalize; /** міняє першу-головну букву на велику**/
+}
+
+.form2 {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 5px;
+	outline: none;
+	resize: none;
+	box-shadow: inset 2.5px 2.5px 10px rgba(0,0,0,0.2);
+	border-style: none;
+	margin-top: 15px;
+	width: 277px;
+	height: 46px;
+}
+
+.form3 {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 5px;
+	outline: none;
+	resize: none;
+	box-shadow: inset 2.5px 2.5px 10px rgba(0,0,0,0.2);
+	border-style: none;
+	margin-top: 15px;
+	width: 277px;
+	height: 156px;
+}
+
+.right_form form div input::-webkit-input-placeholder {
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	color: #b9b9b9;
+	padding-top: 15px;
+}
+
+.button_form {
+	width: 277px;
+	height: 46px;
+	background-color: #ffb926;
+	border-radius: 5px;
+	border-style: none;
+	border-color: #ffb926;
+	font-family: Tahoma;
+	font-weight: 700;
+	font-size: 19px;
+	color: #fff;
+	box-shadow: 2.5px 2.5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	margin-top: 15px;
+}
+
+.button_form:active {
+	box-shadow: inset 2.5px 2.5px 10px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+/* SECTION 8 TEAM */
+
+
+
+
+
+
+
+#end {
+	width: 86.5%;
+	margin: auto;
+}
+
+.title_end_text h2 {
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 19px;
+	color: #000;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.title_end_text span {
+	color: #ffb926;
+}
+
+.big_text {
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 10px;
+	color: #343434;
+	text-align: left;
+	padding-top: 20px;
+	line-height: 20px;
+}
+
+.soc_end {
+	padding-top: 25px;
+	display: flex;
+}
+
+.div-img1 {
+	width: 25%;
+}
+
+.div-img2 {
+	width: 25%;
+}
+
+.div-img3 {
+	width: 25%;
+}
+
+.div-img4 {
+	width: 25%;
+}
+
+.img1 {
+	display: block;
+	margin: auto;
+}
+
+.img2 {
+	display: block;
+	margin: auto;
+}
+
+.img3 {
+	display: block;
+	margin: auto;
+}
+
+.img4 {
+	display: block;
+	margin: auto;
+}
+
+.eeend :first-child {
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 6px;
+	color: #343434;
+	text-align: left;
+	padding-top: 20px;
+	position: absolute;
+	padding-bottom: 15px;
+}
+
+.eeend :last-child {
+	font-family: Century Gothic;
+	font-weight: 400;
+	font-size: 6px;
+	color: #343434;
+	text-align: right;
+	padding-top: 20px;
+	position: relative;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	.title {
+		font-size: 40px;
+	}
+}

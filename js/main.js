@@ -75,3 +75,15 @@ $('.sl3').slick({
     }
   ]
 });
+
+
+
+/* Активація кнопки гамбургер меню */
+$('.menu-icon').click(function(){
+  $('.menu').toggleClass('active');
+});
+
+
+$('.socialNetworking').click(function(){
+  $('.menu').toggleClass('active');
+});

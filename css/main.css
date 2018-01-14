@@ -24,6 +24,49 @@ header {
 	color: #ffb826;
 }
 
+/* Gamburger згортається при 320рх*/
+
+.gamburger {
+	display: block;
+}
+
+
+
+.menu {
+	display: none;
+}
+
+.menu:after {
+	content: "";
+	width: 320px;
+	height: 195px;
+	background-color: white;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -94px;
+}
+
+.menu:before {
+	content: "";
+	width: 113px;
+	height: 31px;
+	background-image: url(../img/socialNetworking.png);
+	position: absolute;
+	z-index: 3;
+	margin-top: 195px;
+	margin-left: 12px;
+}
+
+.menu.active {
+	display: block;
+}
+
+.menu li {
+	float: none;
+}
+
+/* Gamburger кінець */
+
 .gamburger {
 	float: right;
 	padding-top: 20px;
@@ -669,7 +712,7 @@ h2 {
 
 
 
-/* SECTION 8 TEAM */
+/* SECTION 9 FORM */
 
 
 
@@ -873,7 +916,7 @@ h2 {
 
 
 
-/* SECTION 8 TEAM */
+/* SECTION 10 END */
 
 
 
@@ -977,8 +1020,50 @@ h2 {
 
 
 
+
+
+
+
+
+
 @media only screen and (max-width: 768px){
-	.title {
-		font-size: 40px;
-	}
+
+
+	/* gamburger */
+
+.menu {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.menu li {
+  float: left;
+  display: block;
+}
+
+.menu li a {
+  padding: 10px;
+  display: block;
+  color: #343434;
+  font-weight: 700;
+  background: white;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 270px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+.gamburger {
+  float: right;
+  padding-top: 20px;
+}
+	
+
+	/* gamburger */
+
+
 }

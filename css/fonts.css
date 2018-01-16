@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("../fonts/Open Sans Condensed/open-sans-condensed-latin-300.eot");
+  src: url('../fonts/Open Sans Condensed/open-sans-condensed-latin-300.eot?iefix') format('eot'),
+  url('../fonts/Open Sans Condensed/open-sans-condensed-latin-300.woff') format('woff'),
+  url('../fonts/Open Sans Condensed/open-sans-condensed-latin-300.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+

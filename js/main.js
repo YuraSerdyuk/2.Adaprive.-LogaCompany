@@ -50,15 +50,16 @@ $('.sl2').slick({
 $('.sl3').slick({
   centerMode: true,
   centerPadding: '60px',
-  slidesToShow: 3,
+  slidesToShow: 1,
+  arrows: false,
   responsive: [
     {
       breakpoint: 768,
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3
+        centerPadding: '30px',
+        slidesToShow: 1
       }
     },
     {
@@ -84,6 +85,3 @@ $('.menu-icon').click(function(){
 });
 
 
-$('.socialNetworking').click(function(){
-  $('.menu').toggleClass('active');
-});

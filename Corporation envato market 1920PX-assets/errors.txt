@@ -1,0 +1,4 @@
+[2018-05-21 15:45:12] layer "+1200": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-05-21 15:45:12] layer "+40": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-05-21 15:45:12] layer "+9000": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-05-21 15:45:12] layer "Send Us An Email: email@gmail.com": Unsupported extension: com

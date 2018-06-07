@@ -307,14 +307,19 @@ h2 {
 
 
 #about {
-	width: 320px;
-	height: 810px;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1px;
 	background-color: #f2f2f2;
 }
 
 .up_photo {
-	background-image: url(../img/background.png);
-	height: 311px;
+	width: 100%;
+}
+
+.up_photo img {
+	max-width: 100%;
+    height: auto;
 }
 
 .down_text {
@@ -1256,7 +1261,7 @@ h2 {
 }
 
 header {
-	width: 280px;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -1380,7 +1385,7 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
     height: 460px;
-    width: 320px;
+    width: 100%;
 }
 
 h1 {
@@ -1521,7 +1526,7 @@ h2 {
 }
 
 #animation {
-	width: 280px;
+	width: 80%;
 	margin: 0 auto;
 	height: 720px;
 }
@@ -1564,14 +1569,19 @@ h2 {
 
 
 #about {
-	width: 320px;
-	height: 810px;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1px;
 	background-color: #f2f2f2;
 }
 
 .up_photo {
-	background-image: url(../img/background.png);
-	height: 311px;
+	width: 100%;
+}
+
+.up_photo img {
+	max-width: 100%;
+    height: auto;
 }
 
 .down_text {
@@ -1635,8 +1645,11 @@ h2 {
 	background-color: #ffb826;
 	padding: 13px 55px 13px 55px;
 	outline: none;
-	margin-left: 40px;
 	margin-top: 30px;
+	margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -1655,7 +1668,7 @@ h2 {
 
 #our_services {
 	height:1790px; 
-	width: 320px;
+	width: 100%;
 }
 
 .line {
@@ -1808,7 +1821,7 @@ h2 {
 #our_clients {
 	background-color: #f2f2f2;
 	height: 289px;
-	width: 320px;
+	width: 100%;
 	margin-top: 50px;
 }
 
@@ -1845,7 +1858,7 @@ h2 {
 
 
 #price {
-	width: 320px;
+	width: 100%;
 	height: 570px;
 }
 
@@ -1945,7 +1958,7 @@ h2 {
 #response {
 	background-color: #f2f2f2;
 	height: 750px;
-	width: 320px;
+	width: 100%;
 }
 
 
@@ -2023,7 +2036,7 @@ h2 {
 #team {
 	background-image: url(../img/bg_team.png);
 	height: 560px;
-	width: 320px;
+	width: 100%;
 }
 
 .line_team {
@@ -2117,7 +2130,7 @@ h2 {
 #find_us {
 	background-color: #f2f2f2;
 	height: 920px;
-	width: 320px;
+	width: 100%;
 }
 
 .pos_find_us {
@@ -2312,7 +2325,7 @@ h2 {
 
 
 #links {
-	width: 280px;
+	width: 80%;
 	margin: auto;
 }
 
@@ -2486,7 +2499,7 @@ h2 {
 
 header {
 	height: 65px;
-	width: 706px;
+	width: 76%;
 	margin: auto;
 }
 
@@ -2564,7 +2577,7 @@ header {
 	background-attachment: fixed;
 	background-size: cover;
 	height: 667px;
-	width: 768px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -2704,7 +2717,7 @@ h1 {
 
 #animation {
 	height: 528px;
-	width: 686px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -2801,14 +2814,19 @@ h1 {
 
 
 #about {
-	width: 768px;
-	margin: auto;
-		background-color: #f2f2f2;
+	width: 100%;
+	height: auto;
+	padding-bottom: 1px;
+	background-color: #f2f2f2;
 }
 
 .up_photo {
-	background-image: url(../img/4.png);
-	height: 511px;
+	width: 100%;
+}
+
+.up_photo img {
+	max-width: 100%;
+    height: auto;
 }
 
 .down_text {
@@ -2865,7 +2883,7 @@ h1 {
 
 #our_services {
 	height: 1100px;
-	width: 650px;
+	width: 85%;
 	margin: auto;
 }
 
@@ -3020,7 +3038,7 @@ h1 {
 
 
 #our_clients {
-	width: 768px;
+	width: 100%x;
 	height: 396px;
 	margin: auto;
 	background-color: #f2f2f2;
@@ -3149,7 +3167,7 @@ h1 {
 
 #response {
 	height: 758px;
-	width: 768px;
+	width: 100%;
 	margin: auto;
 	background-color: #f2f2f2;
 }
@@ -3222,7 +3240,7 @@ h1 {
 	background-image: url(../img/bg_768px.png);
 	background-position: bottom;
 	height: 650px;
-	width: 778px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -3313,7 +3331,7 @@ h1 {
 
 #find_us {
 	height: 1600px;
-	width: 768px;
+	width: 100%;
 	margin: auto;
 	background-color: #f2f2f2;
 }
@@ -3678,7 +3696,7 @@ h1 {
 
 header {
 	height: 65px;
-	width: 706px;
+	width: 74%;
 	margin: auto;
 }
 
@@ -3756,7 +3774,7 @@ header {
 	background-attachment: fixed;
 	background-size: cover;
 	height: 667px;
-	width: 1024px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -3766,7 +3784,7 @@ h1 {
 	font-weight: 400;
 	color: #ffffff;
 	padding-top: 230px;
-	padding-left: 80px;
+	padding-left: 180px;
 }
 
 .color_letter2 {
@@ -3778,7 +3796,7 @@ h1 {
 	font-size: 22px;
 	font-weight: 700;
 	color: #666666;
-	padding-left: 80px;
+	padding-left: 180px;
 }
 
 .menu_button {
@@ -3796,7 +3814,7 @@ h1 {
 	padding: 0;
 	outline: none;
 	margin-top: 60px;
-	margin-left: 82px;
+	margin-left: 182px;
 }
 
 .text_button {
@@ -3896,7 +3914,7 @@ h1 {
 
 #animation {
 	height: 528px;
-	width: 686px;
+	width: 84%;
 	margin: auto;
 }
 
@@ -3993,51 +4011,82 @@ h1 {
 
 
 #about {
-	width: 1024px;
-	margin: auto;
+	height: 630px;
 	background-color: #f2f2f2;
 }
 
-.up_photo {
-	background-image: url(../img/4.png);
-	background-repeat: round;
-	height: 511px;
+.up_photo img {
+	background: url(../img/bg-highlight-redight.png);
+    width: 50%;
+    float: left;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+    height: 620px;
 }
 
 .down_text {
-	width: 772px;
-	height: 575px;
-	margin: auto;
+	width: 50%;
+	float: right;
 }
 
+.right_text_70width {
+	width: 70%;
+	float: left;
+}
 
-.about_text p {
+.title_text h2 {
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+	line-height: 0.8;
+	padding-top: 88px;
+}
+
+.title_text h2 span {
+	color: #ffb926;
+}
+
+.title_text h4 {
 	font-family: Century Gothic;
 	font-size: 24px;
 	font-weight: 400;
+	color: #ffb826;
+	text-align: center;
+	line-height: 0.8;
+	padding-top: 17px;
+}
+
+.about_text p {
+	font-family: Century Gothic;
+	font-size: 18px;
+	font-weight: 400;
 	color: #000;
 	text-align: center;
-	line-height: 40px;
-	margin-top: 35px;
+	line-height: 38px;
+	padding-top: 40px;
+}
+
+.about_pos_button {
+    display: table;
+    margin: auto;
 }
 
 .about_button {
 	font-family: Catamaran;
 	font-weight: 700;
-	font-size: 26px;
+	font-size: 36px;
 	color: #fff;
 	line-height: 1;
 	border-radius: 10px;
 	border-style: solid;
 	border-color: #ffb826;
 	background-color: #ffb826;
-	padding: 13px 55px 13px 55px;
+	padding: 20px 70px 20px 70px;
 	outline: none;
-}
-
-.about_pos_button {
-	margin-top: 80px;
-	margin-left: 255px;
+	cursor: pointer;
+	margin-top: 70px;
 }
 
 
@@ -4058,7 +4107,7 @@ h1 {
 
 #our_services {
 	height: 1100px;
-	width: 772px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -4213,7 +4262,7 @@ h1 {
 
 
 #our_clients {
-	width: 1024px;
+	width: 100%;
 	height: 396px;
 	margin: auto;
 	background-color: #f2f2f2;
@@ -4249,7 +4298,7 @@ h1 {
 
 #price {
 	height: 584px;
-	width: 1024px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -4342,7 +4391,7 @@ h1 {
 
 #response {
 	height: 758px;
-	width: 1024px;
+	width: 100%;
 	margin: auto;
 	background-color: #f2f2f2;
 }
@@ -4415,7 +4464,7 @@ h1 {
 	background-image: url(../img/bg_768px.png);
 	background-position: bottom;
 	height: 650px;
-	width: 1024px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -4502,7 +4551,7 @@ h1 {
 
 #find_us {
 	height: 1600px;
-	width: 1024px;
+	width: 100%;
 	margin: auto;
 	background-color: #f2f2f2;
 }
@@ -4657,7 +4706,7 @@ h6 {
 
 
 #links {
-	width: 772px;
+	width: 70%;
 	margin: auto;
 }
 
@@ -4772,7 +4821,7 @@ h6 {
 }
 
 .eeend {
-	width: 84%;
+	width: 70%;
 	margin: auto;
 }
 
@@ -5472,7 +5521,7 @@ h2 {
 	background-color: #f2f2f2;
 }
 
-.up_photo {
+.up_photo img {
 	background: url(../img/bg-highlight-redight.png);
     width: 50%;
     float: left;
